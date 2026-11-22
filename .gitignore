@@ -1,2 +1,18 @@
 node_modules/ 
 dist/ 
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# Local SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+.env
